@@ -117,15 +117,16 @@ header {
 .filter-item {
     display: inline-block;
     text-align: center;
+    list-style-type: none;
 }
 
-.filter-item > h3 {
+.filter-item h3 {
     text-align: left;
     font-weight: 700;
     font-size: 18px;
 }
 
-.filter-item > p {
+.filter-item p {
     color: #757575;
     text-align: left;
     font-weight: 400;
