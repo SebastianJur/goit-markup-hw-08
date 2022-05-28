@@ -5,22 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- HEADER -->
-    <header>
-      <a class="logo" href="index.html"><span class="logo-blue">Web</span>Studio</a>
-      <nav>
-        <ul class="menu-list">
-          <li><a class="link-menu" href="index.html">Agencja</a></li>
-          <li><a class="link-menu" href="portfolio.html">Portfolio</a></li>
-          <li>Kontakt</li>
-        </ul>
-      </nav>
-      <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="index.html"><span class="logo-blue">Web</span>Studio</a>
+        <nav class="navigation">
+          <ul class="menu-list">
+            <li class="menu-list-item"><a class="link-menu" href="index.html">Agencja</a></li>
+            <li class="menu-list-item"><a class="link-menu" href="portfolio.html">Portfolio</a></li>
+            <li class="menu-list-item">Kontakt</li>
+          </ul>
+        </nav>
+
+        <div class="adress">
+          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
+      </div>
     </header>
 
     <!-- MAIN -->
@@ -95,13 +101,15 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
-      <a class="logo" href="index.html"><span class="logo-blue">Web</span><span class="logo-white">Studio</span></a>
-      <address>
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a class="link" href="mailto:info@devstudio.com"><p>info@devstudio.com</p></a>
-        <a class="link" href="tel:+48111111111"><p>+48 111 111 111</p></a>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo" href="index.html"><span class="logo-blue">Web</span><span class="logo-white">Studio</span></a>
+        <address class="address">
+          <p class="footer-white">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <a class="link" href="mailto:info@devstudio.com"><p>info@devstudio.com</p></a>
+          <a class="link" href="tel:+48111111111"><p>+48 111 111 111</p></a>
+        </address>
+      </div>
     </footer>
 
   </body>
