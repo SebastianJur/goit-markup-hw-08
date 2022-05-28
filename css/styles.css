@@ -18,6 +18,10 @@ p {
     margin: auto;
 }
 
+.section {
+    padding: 94px;
+}
+
 /* HEADER */
 .header .container {
     display: flex;
@@ -33,6 +37,7 @@ p {
     color: #212121;
     margin-right: 93px;
     padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo-blue {
@@ -42,6 +47,7 @@ p {
 .navigation {
     display: flex;
     padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .menu-list {
@@ -55,6 +61,7 @@ p {
 .adress {
     margin-left: auto;
     padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .menu-list-item:not(:last-child) {
@@ -66,12 +73,14 @@ p {
 }
 /*------------------------------------*/
 
-
+.section-main {
+    background: #2F303A;
+}
 
 .main {
-    background: #2F303A;
     color: #FFFFFF;   
     align-items: center;
+    
 }
 
 .main-header {
@@ -83,19 +92,20 @@ p {
 .main > button{
     font-weight: 700;
     font-size: 16px;
-    text-align: center;
     background-color: #2196F3;
     color: #FFFFFF;
 }
 
 /* LOREM IPSUM +++ */
 .lorem {
+    display: flex;
     text-align: center;
     font-size: 14px;
     font-weight: 700;
 }
 
 .lorem-list {
+    display: flex;
     text-align: left; 
     display: inline-block;
     font-weight: 400;
@@ -105,7 +115,6 @@ p {
 .lorem-color {
     color: #757575;
 }
-
 
 /* Czym się zajmujemy */
 .working {
@@ -146,29 +155,53 @@ p {
 /* Portfolio Filter +++ */
 
 .button-filtr {
+    display: flex;
     list-style-type: none; 
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center; 
+    justify-content: center;
+    padding-bottom: 34px;
 }
 
-.filter-item {
-    display: inline-block;
-    text-align: center;
+.filter {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
+    
+
 }
 
-.filter-item h3 {
+.filter h3 {
     text-align: left;
     font-weight: 700;
     font-size: 18px;
+    padding: 20px 24px 4px;
 }
 
-.filter-item p {
+.filter p {
     color: #757575;
     text-align: left;
     font-weight: 400;
     font-size: 16px;
+    padding: 0px 24px 20px;
+}
+
+.button-filtr-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.button-filter {
+    background-color: #F5F4FA;
+    border: 0px;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container .button-filtr {
+    align-items: center;
+}
+
+.filter-item {
+    flex-basis: calc(100% / 3 - 10px);
 }
 
 /* Przyciski i linki */
