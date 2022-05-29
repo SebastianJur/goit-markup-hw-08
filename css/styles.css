@@ -222,9 +222,6 @@ p {
   align-items: center;
 }
 
-.filter-item {
-  flex-basis: calc(100% / 3 - 10px);
-}
 
 /* Przyciski i linki */
 
