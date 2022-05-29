@@ -123,12 +123,23 @@ p {
 .header-second {
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
+}
+
+.working-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.working-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Nasz zespół */
 .our-team {
   background: #f5f4fa;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .our-team > .team {
@@ -150,6 +161,10 @@ p {
   font-size: 16px;
   line-height: 19px;
   color: #757575;
+}
+
+.our-team div:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Portfolio Filter +++ */
