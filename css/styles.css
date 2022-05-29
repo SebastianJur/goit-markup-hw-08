@@ -81,14 +81,17 @@ p {
 }
 
 .main {
-  color: #ffffff;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .main-header {
   text-align: center;
   font-weight: 900;
   font-size: 44px;
+  color: #ffffff;
 }
 
 .main > button {
@@ -96,6 +99,14 @@ p {
   font-size: 16px;
   background-color: #2196f3;
   color: #ffffff;
+}
+
+.header-button {
+  padding: 10px 41px;
+  border: 0px;
+  Font style: Bold;
+  Font size: 16px;
+  border-radius: 4px;
 }
 
 /* LOREM IPSUM +++ */
