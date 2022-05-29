@@ -108,8 +108,8 @@ p {
 
 .lorem-list {
   display: flex;
+  justify-content: space-between;
   text-align: left;
-  align-items: center;
   font-weight: 400;
   list-style-type: none;
 }
@@ -133,6 +133,7 @@ p {
 .working-list {
   list-style-type: none;
   display: flex;
+  justify-content: space-between;
 }
 
 .working-item:not(:last-child) {
@@ -143,6 +144,7 @@ p {
 .our-team {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .our-team-bg {
