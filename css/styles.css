@@ -92,6 +92,8 @@ p {
   font-weight: 900;
   font-size: 44px;
   color: #ffffff;
+  max-width: 696px;
+  letter-spacing: 0.06em;
 }
 
 .main > button {
