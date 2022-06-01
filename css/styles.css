@@ -219,6 +219,7 @@ p {
   font-weight: 700;
   font-size: 18px;
   padding: 20px 24px 4px;
+  margin-top: 0px;
 }
 
 .filter p {
@@ -226,7 +227,11 @@ p {
   text-align: left;
   font-weight: 400;
   font-size: 16px;
-  padding: 0px 24px 20px;
+  margin: 0px 24px 20px;
+}
+
+.filter-item {
+  margin-bottom: 30px;
 }
 
 .button-filtr-item:not(:last-child) {
@@ -245,6 +250,11 @@ p {
   align-items: center;
 }
 
+.filter-item-header {
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+}
 
 /* Przyciski i linki */
 
