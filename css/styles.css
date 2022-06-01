@@ -78,6 +78,8 @@ p {
 
 .section-main {
   background: #2f303a;
+  height: 600px;
+  display: flex;
 }
 
 .main {
@@ -311,4 +313,5 @@ address p:not(:last-child) {
 .address {
   display: inline-block;
   margin-bottom: 60px;
+  font-style: normal;
 }
