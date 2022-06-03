@@ -232,6 +232,8 @@ p {
 
 .filter-item {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .button-filtr-item:not(:last-child) {
