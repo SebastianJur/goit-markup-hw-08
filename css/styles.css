@@ -247,6 +247,14 @@ p {
   height: 44px;
 }
 
+.social:hover {
+  background-color: #2196f3;
+}
+
+.social:hover svg {
+  fill: #fff;
+}
+
 /* Nasi klienci */
 
 .icon-client-list {
