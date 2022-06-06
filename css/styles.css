@@ -228,6 +228,36 @@ p {
   margin-right: 30px;
 }
 
+/* Nasi klienci */
+
+.icon-client-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-client-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-client {
+  width: 106px;
+  height: 60.04px;
+  fill: #AFB1B8;
+}
+
+.icon-client-item:hover,
+.icon-client-item:hover svg {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
 /* Portfolio Filter +++ */
 
 .button-filtr {
