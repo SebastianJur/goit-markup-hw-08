@@ -228,6 +228,25 @@ p {
   margin-right: 30px;
 }
 
+.icon-social-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.icon-social-item {
+  fill: #afb1b8;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-social {
+  width: 44px;
+  height: 44px;
+}
+
 /* Nasi klienci */
 
 .icon-client-list {
