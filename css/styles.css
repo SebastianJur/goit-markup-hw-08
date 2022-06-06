@@ -23,11 +23,6 @@ p {
   padding-bottom: 94px;
 }
 
-.icon {
-  fill: currentcolor;
-  margin-right: 10px;
-}
-
 /* HEADER */
 
 .header .container {
@@ -69,6 +64,11 @@ p {
   margin-left: auto;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.icon {
+  fill: currentcolor;
+  margin-right: 10px;
 }
 
 .menu-list-item:not(:last-child) {
@@ -145,6 +145,28 @@ p {
 .lorem-pad {
   padding-bottom: 0px;
 }
+
+.icon-lorem-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.icon-lorem-item {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.icon-lorem {
+  width: 70px;
+  height: 70px;
+}
+
 
 /* Czym się zajmujemy */
 .working {
@@ -335,3 +357,13 @@ address p:not(:last-child) {
   margin-bottom: 60px;
   font-style: normal;
 }
+
+
+
+
+
+
+
+
+
+
