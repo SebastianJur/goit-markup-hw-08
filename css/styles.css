@@ -25,7 +25,6 @@ p {
 
 /* HEADER */
 
-
 .header .container {
   display: flex;
   align-items: center;
@@ -76,8 +75,10 @@ p {
 }
 /*------------------------------------*/
 
-.section-main {
-  background: #2f303a;
+.bg-image {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header.jpg);
+  background-size: cover;
+  background-position: center;
   height: 600px;
   display: flex;
 }
