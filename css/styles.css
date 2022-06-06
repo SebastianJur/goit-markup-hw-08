@@ -23,6 +23,11 @@ p {
   padding-bottom: 94px;
 }
 
+.icon {
+  fill: currentcolor;
+  margin-right: 10px;
+}
+
 /* HEADER */
 
 .header .container {
@@ -76,9 +81,11 @@ p {
 /*------------------------------------*/
 
 .bg-image {
+  background: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header.jpg);
-  background-size: cover;
+  object-fit: contain;
   background-position: center;
+  background-repeat: no-repeat;
   height: 600px;
   display: flex;
 }
