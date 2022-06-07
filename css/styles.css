@@ -25,6 +25,10 @@ p {
 
 /* HEADER */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -293,6 +297,7 @@ p {
 .icon-client-item:hover svg {
   fill: #2196f3;
   border-color: #2196f3;
+  cursor: pointer;
 }
 
 /* Portfolio Filter +++ */
