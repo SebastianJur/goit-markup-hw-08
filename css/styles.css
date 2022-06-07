@@ -127,8 +127,8 @@ p {
 
 /* LOREM IPSUM +++ */
 .lorem {
-  display: flex;
-  align-items: center;
+  display: block;
+  justify-content: space-between;
   font-size: 14px;
   font-weight: 700;
 }
@@ -139,6 +139,11 @@ p {
   text-align: left;
   font-weight: 400;
   list-style-type: none;
+}
+
+.lorem-item {
+  width: 270px;
+  height: 120px;
 }
 
 .lorem-color {
