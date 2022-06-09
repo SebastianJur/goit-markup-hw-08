@@ -6,6 +6,7 @@ body {
 ul {
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 p {
@@ -245,7 +246,6 @@ p {
 }
 
 .icon-social-item {
-  fill: #afb1b8;
   display: flex;
   justify-content: space-around;
 }
@@ -458,6 +458,10 @@ address p:not(:last-child) {
   margin-left: 55px;
 }
 
+.icon-footer-item {
+  fill: #fff;
+}
+
 .footer-social-icon {
   display: flex;
   justify-content: center;
@@ -468,7 +472,6 @@ address p:not(:last-child) {
   margin-left: 10px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  fill: #fff;
 }
 
 .footer-social-icon:hover {
@@ -477,4 +480,10 @@ address p:not(:last-child) {
 
 .footer-social-icon:hover svg {
   fill: #FFF;
+}
+
+.icon-footer-social {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
 }
