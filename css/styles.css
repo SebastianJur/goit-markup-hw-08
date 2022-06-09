@@ -6,7 +6,6 @@ body {
 ul {
   padding: 0;
   margin: 0;
-  list-style-type: none;
 }
 
 p {
@@ -456,11 +455,11 @@ address p:not(:last-child) {
   display: flex;
   align-items: center;
   margin-left: 55px;
+  list-style-type: none;
 }
 
 .icon-footer-item {
   fill: #fff;
-  
 }
 
 .footer-social-icon {
