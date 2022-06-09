@@ -447,6 +447,7 @@ address p:not(:last-child) {
   font-weight: 700;
   font-size: 14px;
   margin-left: 70px;
+  margin-bottom: 20px;
   display: block;
   text-transform: uppercase;
 }
@@ -468,7 +469,6 @@ address p:not(:last-child) {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #fff;
-  color: #FFF;
 }
 
 .footer-social-icon:hover {
