@@ -206,9 +206,30 @@ p {
   justify-content: space-between;
 }
 
+
 .working-item:not(:last-child) {
   margin-right: 30px;
 }
+
+.working-item {
+  position: relative;
+}
+
+.working-item-overlay {
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  top: 75%;
+}
+
 
 /* Nasz zespół */
 .our-team {
@@ -280,6 +301,8 @@ p {
 .social:hover svg {
   fill: #fff;
 }
+
+
 
 /* Nasi klienci */
 
