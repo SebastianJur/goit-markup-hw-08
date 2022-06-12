@@ -82,6 +82,17 @@ p {
 .adress a:not(:last-child) {
   margin-right: 50px;
 }
+
+.active::after {
+  content: "";
+  display: block;
+  position: relative;
+  border-top: 4px solid #2196f3;
+  border-radius: 2px;
+  top: 33px;
+}
+
+
 /*------------------------------------*/
 
 .bg-image {
