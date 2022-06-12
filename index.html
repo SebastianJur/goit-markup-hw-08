@@ -38,7 +38,7 @@
         <section class="section bg-image">
           <div class="container main">
               <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-              <button type="button" class="header-button">Zamów usługe</button>
+              <button type="button" data-modal-open class="header-button">Zamów usługe</button>
           </div>
         </section>
 
@@ -420,6 +420,11 @@
           </div>
       </div>
     </footer>
-
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="close-btn" data-modal-close>X</button>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
   </body>
 </html>

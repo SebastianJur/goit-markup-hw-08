@@ -437,6 +437,25 @@ button {
   color: #212121;
 }
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
 /* FOOTER */
 footer {
   background: #2f303a;
