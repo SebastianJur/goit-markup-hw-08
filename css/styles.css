@@ -367,10 +367,42 @@ p {
   margin: 0px 24px 20px;
 }
 
+/* Box */
 .filter-item {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Overlay */
+.overlay-filter-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2196f3;
+  opacity: 90%;
+  transform: translatey(100%);
+  transition: transform 250ms ease;
+}
+
+.filter-item:hover .overlay-filter-item {
+  transform: translateX(0);
+}
+
+.overlay-filter-item p {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  padding-top: 49px;
+}
+
+.portfolio p {
+  padding: 4px 24px 20px 24px;
 }
 
 .button-filtr-item:not(:last-child) {
