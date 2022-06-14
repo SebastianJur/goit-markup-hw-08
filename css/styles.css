@@ -373,7 +373,6 @@ p {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  position: relative;
 }
 
 /* Overlay */
@@ -387,6 +386,10 @@ p {
   opacity: 90%;
   transform: translatey(100%);
   transition: transform 250ms ease;
+}
+
+.img-overlay {
+  position: relative;
 }
 
 .filter-item:hover .overlay-filter-item {
