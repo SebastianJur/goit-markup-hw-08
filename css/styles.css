@@ -389,7 +389,13 @@ p {
 }
 
 .img-overlay {
+  position: absolute;
+}
+
+.filter-img-overlay {
   position: relative;
+  height: 294px;
+  width: 370px;
 }
 
 .filter-item:hover .overlay-filter-item {
