@@ -480,6 +480,8 @@ button {
   color: #212121;
 }
 
+/* Modal Window */
+
 .backdrop {
   position: fixed;
   left: 0;
@@ -519,6 +521,25 @@ button {
   border-radius: 4px;
 }
 
+.modal-form > p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.modal-form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form textarea {
+  resize: none;
+}
 
 /* FOOTER */
 footer {

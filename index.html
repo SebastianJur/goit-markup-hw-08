@@ -423,6 +423,37 @@
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="close-btn" data-modal-close>X</button>
+      <form class="modal-form">
+        <p>Zostaw swoje dane w formularzu poniżej</p>
+        
+        <label>
+          Imię
+          <input type="text" name="name">
+        </label>
+
+        <label>
+          Telefon
+          <input type="tel" name="phone_number">
+        </label>
+
+        <label>
+          E-mail
+          <input type="email" name="email">
+        </label>
+
+        <label>
+          Komentarz
+          <textarea name="comment" rows="5" name="comment" placeholder="Wprowadź tekst"></textarea>
+        </label>
+        
+        <label>
+          <input type="checkbox" name="regulations_privacy-policy" value="regulations_privacy-policy">
+          Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+        </label>
+
+        <button type="submit">Wyślij</button>
+
+      </form>
     </div>
   </div>
   <script src="./js/modal.js"></script>
