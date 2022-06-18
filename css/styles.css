@@ -623,7 +623,8 @@ input:focus-visible {
   top: 249px;
 }
 
-.modal-form label:focus-within svg {
+.modal-form label:focus-within svg,
+.modal-form label:hover svg {
   fill: #2196f3;
 }
 
