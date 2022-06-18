@@ -599,6 +599,34 @@ input:focus-visible {
   display: block;
 }
 
+
+.icon-form {
+  position: absolute;
+  left: 52px;
+}
+
+.icon-form-avatar {
+  height: 12px;
+  width: 12px;
+  top: 113px;
+}
+
+.icon-form-phone {
+  height: 13px;
+  width: 13px;
+  top: 181px;
+}
+
+.icon-form-envelope {
+  width: 15px;
+  height: 12px;
+  top: 249px;
+}
+
+.modal-form label:focus-within svg {
+  fill: #2196f3;
+}
+
 .modal-form button {
   width: 200px;
   height: 50px;
