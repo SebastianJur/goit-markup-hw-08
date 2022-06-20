@@ -659,7 +659,6 @@ input:focus-visible {
   color: #2196f3;
 }
 
-/*
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -670,7 +669,6 @@ input:focus-visible {
   width: 1px !important;
   overflow: hidden;
 }
-*/
 
 .modal-form button {
   width: 200px;
