@@ -648,6 +648,11 @@ input:focus-visible {
   background-position: center;
 }
 
+.modal-form-policy {
+  position: absolute;
+  opacity: 0;
+}
+
 .modal-form-policy-container {
   display: flex;
   justify-content: center;
@@ -659,16 +664,7 @@ input:focus-visible {
   color: #2196f3;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
+
 
 .modal-form button {
   width: 200px;
