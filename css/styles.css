@@ -766,6 +766,8 @@ address p:not(:last-child) {
   fill: #fff;
 }
 
+/* NEWSLETTER */
+
 .footer-form-newsletter {
   display: flex;
   align-items: center;
@@ -781,6 +783,7 @@ address p:not(:last-child) {
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  align-items: center;
   letter-spacing: 0.06em;
   margin: auto;
   margin-top: 30px;
@@ -801,3 +804,13 @@ address p:not(:last-child) {
   color:  #757575;
   padding: 16px;
 }
+
+.footer-form-newsletter svg {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 15px;
+  top: 5px;
+}
+  
