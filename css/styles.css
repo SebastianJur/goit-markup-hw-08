@@ -76,7 +76,18 @@ p {
   margin-right: 46px;
 }
 
-.active::after {
+.nav__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #212121;
+}
+
+.nav__link:active,
+.nav__link:hover {
+  color: #2196f3;
+}
+
+.nav__link--active::after {
   content: "";
   display: block;
   position: relative;
@@ -116,8 +127,7 @@ p {
   color: #2196f3;
 }
 
-
-/*------------------------------------------------------------------------------------*/
+/*-------------------------------------END HEADER-------------------------------------*/
 
 .bg-image {
   background: #2f303a;
