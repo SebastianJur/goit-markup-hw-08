@@ -23,16 +23,18 @@ p {
   padding-bottom: 94px;
 }
 
-/* HEADER */
+/*------------------------------------ BEM HEADER ------------------------------------*/
 
-.header {
+.page-header {
   border-bottom: 1px solid #ececec;
+  height: 80px; 
 }
 
-.header .container {
+.page-header .container {
   display: flex;
-  align-items: center;
 }
+
+/*---------------- Logo ----------------*/
 
 .logo {
   display: flex;
@@ -41,46 +43,37 @@ p {
   font-size: 26px;
   text-decoration: none;
   color: #212121;
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
-.logo-blue {
+.logo--blue {
   color: #2196f3;
 }
 
-.navigation {
-  display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.page-header__logo {
+  margin-right: 93px;
 }
 
-.menu-list {
+/*------------- Navigation -------------*/
+
+.navigation {
+  display: flex;
+}
+
+.nav {
   display: flex;
   align-items: center;
   list-style-type: none;
+}
+
+.nav__item {
+  font-family: "Roboto";
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
 }
 
-.adress {
-  margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.icon {
-  fill: currentcolor;
-  margin-right: 10px;
-}
-
-.menu-list-item:not(:last-child) {
+.nav__item--space-margin {
   margin-right: 46px;
-}
-
-.adress a:not(:last-child) {
-  margin-right: 50px;
 }
 
 .active::after {
@@ -89,11 +82,42 @@ p {
   position: relative;
   border-top: 4px solid #2196f3;
   border-radius: 2px;
-  top: 33px;
+  top: 29.5px;
+}
+
+/*--------------- Adress ---------------*/
+
+.adress {
+  margin-left: auto;
+  align-items: center;
+  line-height: 80px;
+}
+
+.adress__link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #757575;
+}
+
+.adress__link--space-margin {
+  margin-right: 30px; 
+}
+
+.adress__icon {
+  fill: currentcolor;
+  margin-right: 10px;
+}
+
+.adress__link:active,
+.adress__link:hover {
+  color: #2196f3;
 }
 
 
-/*------------------------------------*/
+/*------------------------------------------------------------------------------------*/
 
 .bg-image {
   background: #2f303a;
