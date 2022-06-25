@@ -12,6 +12,9 @@ p {
   padding: 0;
 }
 
+
+/*------------------------------------- BEM ROOT -------------------------------------*/
+
 .container {
   width: 1200px;
   align-items: center;
@@ -21,6 +24,27 @@ p {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.header-primary {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 696px;
+  letter-spacing: 0.06em;
+}
+
+.header-second {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 50px;
 }
 
 /*------------------------------------ BEM HEADER ------------------------------------*/
@@ -226,14 +250,6 @@ p {
   text-align: center;
 }
 
-.header-second {
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 50px;
-}
-
 .working-list {
   list-style-type: none;
   display: flex;
@@ -337,16 +353,15 @@ p {
 }
 
 
+/*----------------------------------- OUR CUSTOMERS ----------------------------------*/
 
-/* Nasi klienci */
-
-.icon-client-list {
+.our-customers {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
 
-.icon-client-item {
+.our-customers__item {
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
@@ -356,18 +371,20 @@ p {
   align-items: center;
 }
 
-.icon-client {
+.our-customers__icon {
   width: 106px;
   height: 60.04px;
   fill: #AFB1B8;
 }
 
-.icon-client-item:hover,
-.icon-client-item:hover svg {
+.our-customers__item:hover,
+.our-customers__item:hover svg {
   fill: #2196f3;
   border-color: #2196f3;
   cursor: pointer;
 }
+
+/*--------------------------------- END OUR CUSTOMERS --------------------------------*/
 
 /* Portfolio Filter +++ */
 
