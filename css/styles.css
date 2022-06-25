@@ -718,42 +718,8 @@ input:focus-visible {
 }
 
 /* FOOTER */
-footer {
-  background: #2f303a;
-}
 
-footer > address {
-  font-size: 14px;
-  color: #ffffff;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.logo-white {
-  color: #ffffff;
-}
-
-.footer .container {
-  display: flex;
-  padding-top: 60px;
-  align-items: start;
-}
-
-address p:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.footer-white {
-  color: white;
-}
-
-.address {
-  display: inline-block;
-  margin-bottom: 60px;
-  font-style: normal;
-}
-
-.footer h3 {
+.page-footer h3 {
   color: #fff;
   font-weight: 700;
   font-size: 14px;
@@ -850,8 +816,69 @@ address p:not(:last-child) {
 
 /*------------------------------------ BEM FOOTER ------------------------------------*/
 
+.page-footer {
+  background: #2f303a;
+  height: 252px;
+}
 
+.page-footer .container {
+  display: flex;
+  align-items: start;
+}
 
+.footer-container {
+  padding-top: 60px;
+}
 
+/*---------------- Logo ----------------*/
 
+.logo-footer {
+  display: flex;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.logo-footer--blue {
+  color: #2196f3;
+}
+
+.logo-footer--white {
+  color: #ffffff;
+}
+
+.page-footer__logo-footer {
+  margin-bottom: 20px;
+}
+
+/*--------------- Adress ---------------*/
+
+.address-footer {
+  display: block;
+}
+
+.address-footer__street {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.address-footer__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-footer--space-margin {
+  margin-bottom: 9px;
+}
+
+/*------------ Social Media ------------*/
 
