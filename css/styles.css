@@ -698,8 +698,6 @@ input:focus-visible {
   color: #2196f3;
 }
 
-
-
 .modal-form button {
   width: 200px;
   height: 50px;
@@ -715,103 +713,6 @@ input:focus-visible {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-}
-
-/* FOOTER */
-
-.page-footer h3 {
-  color: #fff;
-  font-weight: 700;
-  font-size: 14px;
-  margin-left: 70px;
-  margin-bottom: 20px;
-  display: block;
-  text-transform: uppercase;
-}
-
-.icon-footer-list {
-  display: flex;
-  align-items: center;
-  margin-left: 55px;
-  list-style-type: none;
-}
-
-.icon-footer-item {
-  fill: #fff;
-}
-
-.footer-social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  width: 44px;
-  height: 44px;
-  margin-left: 10px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-social-icon:hover {
-  background-color: #2196f3;
-}
-
-.footer-social-icon:hover svg {
-  fill: #FFF;
-}
-
-.icon-footer-social {
-  width: 20px;
-  height: 20px;
-  fill: #fff;
-}
-
-/* NEWSLETTER */
-
-.footer-form-newsletter {
-  display: flex;
-  align-items: center;
-  margin-left: 70px;
-}
-
-.footer-form-newsletter button {
-  width: 200px;
-  height: 50px;
-  background: #2196f3;
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  align-items: center;
-  letter-spacing: 0.06em;
-  margin: auto;
-  margin-top: 30px;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  margin-left: 12px;
-  margin-top: 0px;
-}
-
-.footer-form-newsletter input {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  width: 358px;
-  height: 50px;
-  background-color: transparent;
-  color:  #757575;
-  padding: 16px;
-}
-
-.footer-form-newsletter svg {
-  fill: #fff;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  left: 15px;
-  top: 5px;
 }
 
 /*------------------------------------ BEM FOOTER ------------------------------------*/
@@ -830,6 +731,17 @@ input:focus-visible {
   padding-top: 60px;
 }
 
+.footer-title {
+  display: block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
 /*---------------- Logo ----------------*/
 
 .logo-footer {
@@ -882,3 +794,103 @@ input:focus-visible {
 
 /*------------ Social Media ------------*/
 
+.social-media-footer {
+  display: flex;
+  align-items: center;
+  margin-left: 55px;
+  list-style-type: none;
+}
+
+.social-media-footer__item {
+  fill: #fff;
+}
+
+.social-media-footer__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-media-footer__icon--link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #757575;
+}
+
+.social-media-footer__icon:hover {
+  background-color: #2196f3;
+}
+
+.social-media-footer__icon:hover svg {
+  fill: #FFF;
+}
+
+.social-media-footer__svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+/*------------- Newsletter -------------*/
+
+.newsletter-footer {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.newsletter {
+  display: block;
+}
+
+.newsletter__email {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  color:  #757575;
+  padding: 16px;
+}
+
+.newsletter__email--focus:focus {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.newsletter-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+  margin: auto;
+  margin-top: 30px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  margin-left: 12px;
+  margin-top: 0px;
+}
+
+.newsletter-btn__icon {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 15px;
+  top: 5px;
+}
+
+/*-------------------------------------END FOOTER-------------------------------------*/
