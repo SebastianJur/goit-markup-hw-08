@@ -45,6 +45,7 @@ p {
   text-align: center;
   padding-top: 0px;
   padding-bottom: 50px;
+  color: #212121;
 }
 
 /*------------------------------------ BEM HEADER ------------------------------------*/
@@ -151,7 +152,7 @@ p {
   color: #2196f3;
 }
 
-/*-------------------------------------END HEADER-------------------------------------*/
+/*--------------------------------------- MAIN ---------------------------------------*/
 
 .bg-image {
   background: #2f303a;
@@ -170,29 +171,23 @@ p {
   justify-content: center;
 }
 
-.main-header {
-  text-align: center;
-  font-weight: 900;
-  font-size: 44px;
-  color: #ffffff;
-  max-width: 696px;
-  letter-spacing: 0.06em;
+.button-modal {
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  border-radius: 4px;
+  color: #FFF;
 }
 
-.main > button {
+.button-modal__label {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  background-color: #2196f3;
-  color: #ffffff;
+  line-height: 30px;
+  color: #FFF;
 }
-
-.header-button {
-  padding: 10px 41px;
-  border: 0px;
-  Font-size: 16px;
-  border-radius: 4px;
-}
-
 
 /*------------------------------------ LOREM IPSUM -----------------------------------*/
 
@@ -277,12 +272,15 @@ p {
 }
 
 .working__overlay {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
   width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
   position: absolute;
-  font-weight: 700;
-  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
