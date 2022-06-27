@@ -74,10 +74,17 @@ p {
   color: #2196f3;
 }
 
+.logo--white {
+  color: #ffffff;
+}
+
 .page-header__logo {
   margin-right: 93px;
 }
 
+.page-footer__logo {
+  margin-bottom: 20px;
+}
 /*------------- Navigation -------------*/
 
 .navigation {
@@ -772,27 +779,6 @@ input:focus-visible {
   margin-left: 70px;
   margin-bottom: 20px;
   text-transform: uppercase;
-}
-/*---------------- Logo ----------------*/
-
-.logo-footer {
-  display: flex;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  text-decoration: none;
-}
-
-.logo-footer--blue {
-  color: #2196f3;
-}
-
-.logo-footer--white {
-  color: #ffffff;
-}
-
-.page-footer__logo-footer {
-  margin-bottom: 20px;
 }
 
 /*--------------- Adress ---------------*/
