@@ -1,3 +1,28 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  align-items: center;
+  margin: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .logo {
   display: flex;
   font-family: "Raleway";
@@ -19,4 +44,16 @@
 
 .page-footer__logo {
   margin-bottom: 20px;
+}
+
+.modal-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
