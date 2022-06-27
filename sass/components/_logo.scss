@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: #212121;
+
+  &--blue {
+    color: #2196f3;
+  }
+}
+
+.page-header__logo {
+  margin-right: 93px;
+}
