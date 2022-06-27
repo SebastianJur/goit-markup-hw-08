@@ -9,19 +9,11 @@
   color: #212121;
 
   &--blue {
-    color: getColor('logo');
+    color: getColor('logo-b');
   }
 
   &--white {
-  color: #ffffff;
+    color: getColor('logo-w');
   }
 
-}
-
-.page-header__logo {
-  margin-right: 93px;
-}
-
-.page-footer__logo {
-  margin-bottom: 20px;
 }
