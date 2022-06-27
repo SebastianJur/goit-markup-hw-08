@@ -1,3 +1,5 @@
+@import '../utils/variables';
+
 .logo {
   display: flex;
   font-family: "Raleway";
@@ -7,10 +9,19 @@
   color: #212121;
 
   &--blue {
-    color: #2196f3;
+    color: getColor('logo');
   }
+
+  &--white {
+  color: #ffffff;
+  }
+
 }
 
 .page-header__logo {
   margin-right: 93px;
+}
+
+.page-footer__logo {
+  margin-bottom: 20px;
 }

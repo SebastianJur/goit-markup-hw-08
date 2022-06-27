@@ -1,0 +1,7 @@
+$colors: (
+  'logo' : #2196f3,
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}

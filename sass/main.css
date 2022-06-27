@@ -9,7 +9,14 @@
 .logo--blue {
   color: #2196f3;
 }
+.logo--white {
+  color: #ffffff;
+}
 
 .page-header__logo {
   margin-right: 93px;
+}
+
+.page-footer__logo {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
