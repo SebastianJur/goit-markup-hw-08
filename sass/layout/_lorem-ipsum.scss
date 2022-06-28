@@ -5,28 +5,29 @@
 
 .icon-lorem {
   display: block;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__item {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  &__svg {
+    width: 70px;
+    height: 70px;
+  }
 }
 
-.icon-lorem__list {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-
-.icon-lorem__item {
-  width: 270px;
-  height: 120px;
-  background-color: #F5F4FA;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-}
-
-.icon-lorem__svg {
-  width: 70px;
-  height: 70px;
-}
 .lorem-text {
   display: block;
 }

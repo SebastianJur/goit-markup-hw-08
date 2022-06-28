@@ -1,30 +1,31 @@
 .address-footer {
   display: block;
-}
 
-.address-footer__street {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 14px;
-  color: #ffffff;
-}
+  &__street {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #ffffff;
+  }
 
-.address-footer__link {
-  font-family: 'Roboto';
-  font-style: normal;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 14px;
-  cursor: pointer;
-  color: rgba(255, 255, 255, 0.6);
-}
+  &__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
 
-.address-footer__link:active,
-.address-footer__link:hover {
-  color: #2196f3;
-}
+    &:active, 
+    &:hover {
+      color: #2196f3;
+    }
+  }
 
-.address-footer--space-margin {
-  margin-bottom: 9px;
+  &--space-margin {
+    margin-bottom: 9px;
+  }
+
 }
