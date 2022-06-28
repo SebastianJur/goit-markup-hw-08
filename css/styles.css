@@ -6,12 +6,6 @@
 
 /* Portfolio Filter +++ */
 
-.button-filtr {
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-  padding-bottom: 34px;
-}
 
 .filter {
   display: flex;
@@ -83,22 +77,6 @@
   padding: 4px 24px 20px 24px;
 }
 
-.button-filtr-item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.button-filter {
-  background-color: #f5f4fa;
-  border: 0px;
-  border-radius: 4px;
-  padding: 6px 22px;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.container .button-filtr {
-  align-items: center;
-}
 
 .filter-item-header {
   border-right: 1px solid #EEEEEE;
