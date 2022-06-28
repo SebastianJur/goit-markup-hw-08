@@ -716,6 +716,11 @@ button {
   font-weight: 500;
   font-size: 16px;
 }
+.button-filtr__text:active, .button-filtr__text:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .grid {
   display: flex;
@@ -729,17 +734,14 @@ button {
   flex-direction: column;
   overflow: hidden;
 }
-
 .grid__img {
   position: absolute;
 }
-
 .grid__overlay {
   position: relative;
   height: 294px;
   width: 370px;
 }
-
 .grid__overlay-item {
   position: absolute;
   top: 0;
@@ -751,11 +753,6 @@ button {
   transform: translatey(100%);
   transition: transform 250ms ease;
 }
-
-.grid__item:hover .grid__overlay-item {
-  transform: translateX(0);
-}
-
 .grid__overlay-text {
   font-size: 18px;
   line-height: 1.55;
@@ -764,7 +761,6 @@ button {
   padding-top: 49px;
   padding: 4px 24px 20px 24px;
 }
-
 .grid__header {
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
@@ -772,16 +768,14 @@ button {
   z-index: 1001;
   background-color: #fff;
 }
-
-.grid__header-name {
+.grid__name {
   text-align: left;
   font-weight: 700;
   font-size: 18px;
   padding: 20px 24px 4px;
   margin-top: 0px;
 }
-
-.grid__header-type {
+.grid__type {
   color: #757575;
   text-align: left;
   font-weight: 400;
@@ -789,15 +783,11 @@ button {
   margin: 0px 24px 20px;
 }
 
+.grid__item:hover .grid__overlay-item {
+  transform: translateX(0);
+}
+
 .grid .grid__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-}
-
-/* Przyciski i linki */
-.button-filtr button:active,
-.button-filtr button:hover {
-  color: #ffffff;
-  background-color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }/*# sourceMappingURL=main.css.map */
