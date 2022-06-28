@@ -165,7 +165,11 @@ button {
 }
 
 /* Modal Window - Form */
-.modal-form > p {
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -174,11 +178,6 @@ button {
   color: #212121;
   margin-top: 40px;
   margin-bottom: 12px;
-}
-
-.modal-form {
-  display: flex;
-  flex-direction: column;
 }
 
 .modal-form label {

@@ -466,10 +466,11 @@
     <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="modal-btn" data-modal-close>X</button>
+      
       <form class="modal-form">
-        <p>Zostaw swoje dane w formularzu poniżej</p>
+        <p class="modal-form__title">Zostaw swoje dane w formularzu poniżej</p>
         
-        <label>
+        <label class="modal-form__label">
           Imię
           <svg class="icon-form icon-form-avatar">
               <use href="./images/icons.svg#icon-form-avatar"></use>
@@ -477,7 +478,7 @@
           <input type="text" name="name" class="form-input" placeholder=" " required>
         </label>
 
-        <label>
+        <label class="modal-form__label">
           Telefon
           <svg class="icon-form icon-form-phone">
               <use href="./images/icons.svg#icon-form-phone"></use>
@@ -485,7 +486,7 @@
           <input type="tel" name="phone_number" class="form-input" placeholder=" " required>
         </label>
 
-        <label>
+        <label class="modal-form__label">
           E-mail
           <svg class="icon-form icon-form-envelope">
               <use href="./images/icons.svg#icon-form-envelope"></use>
@@ -493,7 +494,7 @@
           <input type="email" name="email" class="form-input" placeholder=" " required>
         </label>
 
-        <label>
+        <label class="modal-form__label">
           Komentarz
           <textarea name="comment" rows="5" name="comment" class="form-input" placeholder="Wprowadź tekst"></textarea>
         </label>
@@ -503,7 +504,7 @@
           <label class="modal-form-policy-text">Oświadczam iż akceptuję <a href="#rules">Regulamin</a> i <a href="#privacy-policy">Politykę Prywatności</a>.</label>
         </div>
 
-        <button type="submit">Wyślij</button>
+        <button class="modal-form__button" type="submit">Wyślij</button>
 
       </form>
     </div>
