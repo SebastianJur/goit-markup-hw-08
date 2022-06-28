@@ -30,35 +30,35 @@
 
 .lorem-text {
   display: block;
-}
 
-.lorem-text__list {
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
-  font-weight: 400;
-  list-style-type: none;
-}
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-weight: 400;
+    list-style-type: none;
+  }
 
-.lorem-text__item {
-  width: 270px;
-  height: 120px;
-}
+  &__item {
+    width: 270px;
+    height: 120px;
+  }
 
-.lorem-text__title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-}
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
 
-.lorem-text__lorem-ipsum {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757575;
+  &__lorem-ipsum {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+  }
 }

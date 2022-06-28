@@ -2,27 +2,27 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-}
 
-.our-customers__item {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  &__item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.our-customers__icon {
-  width: 106px;
-  height: 60.04px;
-  fill: #AFB1B8;
-}
+    &:hover,
+    &:hover svg {
+      fill: #2196f3;
+      border-color: #2196f3;
+      cursor: pointer;
+    }
+  }
 
-.our-customers__item:hover,
-.our-customers__item:hover svg {
-  fill: #2196f3;
-  border-color: #2196f3;
-  cursor: pointer;
+  &__icon {
+    width: 106px;
+    height: 60.04px;
+    fill: #AFB1B8;
+  }
 }

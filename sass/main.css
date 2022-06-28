@@ -371,9 +371,7 @@ input:focus-visible {
   line-height: 30px;
   color: #FFF;
 }
-
-.button-modal:active,
-.button-modal:hover {
+.button-modal:active, .button-modal:hover {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -408,7 +406,6 @@ input:focus-visible {
 .lorem-text {
   display: block;
 }
-
 .lorem-text__list {
   display: flex;
   justify-content: space-between;
@@ -416,12 +413,10 @@ input:focus-visible {
   font-weight: 400;
   list-style-type: none;
 }
-
 .lorem-text__item {
   width: 270px;
   height: 120px;
 }
-
 .lorem-text__title {
   font-family: "Roboto";
   font-style: normal;
@@ -430,7 +425,6 @@ input:focus-visible {
   line-height: 16px;
   text-transform: uppercase;
 }
-
 .lorem-text__lorem-ipsum {
   font-family: "Roboto";
   font-style: normal;
@@ -477,7 +471,6 @@ input:focus-visible {
   align-items: center;
   justify-content: space-between;
 }
-
 .our-team--bg {
   background: #f5f4fa;
 }
@@ -488,7 +481,6 @@ input:focus-visible {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team__name {
   font-family: "Roboto";
   font-style: normal;
@@ -497,7 +489,6 @@ input:focus-visible {
   line-height: 19px;
   text-align: center;
 }
-
 .team__job {
   font-family: "Roboto";
   font-style: normal;
@@ -507,8 +498,6 @@ input:focus-visible {
   text-align: center;
   color: #757575;
 }
-
-/*------------ Social Media ------------*/
 .team__social-list {
   list-style-type: none;
   display: flex;
@@ -516,12 +505,10 @@ input:focus-visible {
   justify-content: space-between;
   margin: 0px 30px 30px;
 }
-
 .team__social-item {
   display: flex;
   justify-content: space-around;
 }
-
 .team__social-icon {
   display: flex;
   width: 44px;
@@ -530,19 +517,16 @@ input:focus-visible {
   justify-content: center;
   align-items: center;
 }
-
+.team__social-icon--hover:hover {
+  background-color: #2196f3;
+}
+.team__social-icon:hover svg {
+  fill: #fff;
+}
 .team__social-svg {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-}
-
-.team__social-icon--hover:hover {
-  background-color: #2196f3;
-}
-
-.team__social-icon:hover svg {
-  fill: #fff;
 }
 
 .our-customers {
@@ -550,7 +534,6 @@ input:focus-visible {
   display: flex;
   justify-content: space-between;
 }
-
 .our-customers__item {
   width: 170px;
   height: 92px;
@@ -560,18 +543,15 @@ input:focus-visible {
   justify-content: center;
   align-items: center;
 }
-
+.our-customers__item:hover, .our-customers__item:hover svg {
+  fill: #2196f3;
+  border-color: #2196f3;
+  cursor: pointer;
+}
 .our-customers__icon {
   width: 106px;
   height: 60.04px;
   fill: #AFB1B8;
-}
-
-.our-customers__item:hover,
-.our-customers__item:hover svg {
-  fill: #2196f3;
-  border-color: #2196f3;
-  cursor: pointer;
 }
 
 .page-footer {
