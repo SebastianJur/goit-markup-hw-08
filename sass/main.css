@@ -291,6 +291,8 @@ button {
 .modal-form-policy__checkbox {
   position: absolute;
   opacity: 0;
+  width: 448px;
+  height: 40px;
 }
 .modal-form-policy__text {
   font-size: 12px;
