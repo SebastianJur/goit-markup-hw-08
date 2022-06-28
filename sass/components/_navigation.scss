@@ -2,35 +2,35 @@
   display: flex;
   align-items: center;
   list-style-type: none;
-}
 
-.nav__item {
+  &__item {
   font-family: "Roboto";
   color: #212121;
   font-weight: 500;
   font-size: 14px;
-}
+  }
 
-.nav__item--space-margin {
+  &__item--space-margin {
   margin-right: 46px;
-}
+  }
 
-.nav__link {
+  &__link {
   text-decoration: none;
   cursor: pointer;
   color: #212121;
-}
+  }
 
-.nav__link:active,
-.nav__link:hover {
-  color: #2196f3;
-}
-
-.nav__link--active::after {
+  &__link--active::after {
   content: "";
   display: block;
   position: relative;
   border-top: 4px solid #2196f3;
   border-radius: 2px;
   top: 29.5px;
+  }
+}
+
+.nav__link:active,
+.nav__link:hover {
+  color: #2196f3;
 }

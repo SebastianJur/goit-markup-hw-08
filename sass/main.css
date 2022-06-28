@@ -60,29 +60,20 @@ p {
   align-items: center;
   list-style-type: none;
 }
-
 .nav__item {
   font-family: "Roboto";
   color: #212121;
   font-weight: 500;
   font-size: 14px;
 }
-
 .nav__item--space-margin {
   margin-right: 46px;
 }
-
 .nav__link {
   text-decoration: none;
   cursor: pointer;
   color: #212121;
 }
-
-.nav__link:active,
-.nav__link:hover {
-  color: #2196f3;
-}
-
 .nav__link--active::after {
   content: "";
   display: block;
@@ -92,12 +83,16 @@ p {
   top: 29.5px;
 }
 
+.nav__link:active,
+.nav__link:hover {
+  color: #2196f3;
+}
+
 .adress {
   margin-left: auto;
   align-items: center;
   line-height: 80px;
 }
-
 .adress__link {
   font-family: "Roboto";
   font-weight: 500;
@@ -106,14 +101,12 @@ p {
   cursor: pointer;
   color: #757575;
 }
-
-.adress__link--space-margin {
-  margin-right: 30px;
-}
-
 .adress__icon {
   fill: currentcolor;
   margin-right: 10px;
+}
+.adress__link--space-margin {
+  margin-right: 30px;
 }
 
 .adress__link:active,
