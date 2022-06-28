@@ -179,8 +179,12 @@ button {
   margin-top: 40px;
   margin-bottom: 12px;
 }
-
-.modal-form label {
+.modal-form textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
+  line-height: 1.16;
+}
+.modal-form__label {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -189,14 +193,51 @@ button {
   margin-top: 10px;
   color: #757575;
 }
-
-.modal-form textarea::placeholder {
-  color: rgba(117, 117, 117, 0.5);
+.modal-form__label:focus-within svg, .modal-form__label:hover svg {
+  fill: #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form__input {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  display: block;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 40px;
+  padding-left: 42px;
+}
+.modal-form__input:focus-within {
+  border: 1px solid #2196f3;
+}
+.modal-form__input:hover {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form__icon-form {
+  position: absolute;
+  left: 52px;
+}
+.modal-form__icon-form--avatar {
+  height: 12px;
+  width: 12px;
+  top: 113px;
+}
+.modal-form__icon-form--phone {
+  height: 13px;
+  width: 13px;
+  top: 181px;
+}
+.modal-form__icon-form--envelope {
+  width: 15px;
+  height: 12px;
+  top: 249px;
 }
 
-.modal-form input:hover,
 .modal-form textarea:hover {
   border: 1px solid #2196f3;
   border-radius: 4px;
@@ -209,18 +250,6 @@ input:focus-visible {
   border: 1px solid #2196f3;
 }
 
-.form-input:focus-within {
-  border: 1px solid #2196f3;
-}
-
-.modal-form input {
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  width: 448px;
-  height: 40px;
-  padding-left: 42px;
-}
-
 .modal-form textarea {
   height: 120px;
   width: 448px;
@@ -230,7 +259,6 @@ input:focus-visible {
   border-radius: 4px;
 }
 
-.modal-form input,
 .modal-form textarea {
   color: #757575;
   font-family: "Roboto";
@@ -240,33 +268,14 @@ input:focus-visible {
   display: block;
 }
 
-.icon-form {
-  position: absolute;
-  left: 52px;
-}
-
-.icon-form-avatar {
-  height: 12px;
-  width: 12px;
-  top: 113px;
-}
-
-.icon-form-phone {
-  height: 13px;
-  width: 13px;
-  top: 181px;
-}
-
-.icon-form-envelope {
-  width: 15px;
-  height: 12px;
-  top: 249px;
-}
-
-.modal-form label:focus-within svg,
-.modal-form label:hover svg {
-  fill: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal-form-policy-text {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  margin-left: 40px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  color: #757575;
 }
 
 .modal-form-policy-text::before {
