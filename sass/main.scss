@@ -2,7 +2,9 @@
 @import './base/container';
 @import './base/section';
 
+
 @import './utils/variables';
+
 
 @import './components/logo';
 @import './components/page-header';
@@ -11,6 +13,18 @@
 @import './components/navigation-links';
 @import './components/title';
 @import './components/secondary-title';
+@import './components/backdrop';
+@import './components/modal';
 
 
 @import './layout/header';
+@import './layout/main-header';
+@import './layout/lorem-ipsum';
+@import './layout/what-we-do';
+@import './layout/our-team';
+@import './layout/our-customers';
+@import './layout/footer';
+@import './layout/footer-adress';
+@import './layout/footer-social';
+@import './layout/footer-newsletter';
+

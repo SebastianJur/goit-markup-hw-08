@@ -1,0 +1,25 @@
+.page-footer {
+  background: #2f303a;
+  height: 252px;
+}
+
+.page-footer .container {
+  display: flex;
+  align-items: start;
+}
+
+.footer-container {
+  padding-top: 60px;
+}
+
+.footer-title {
+  display: block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
