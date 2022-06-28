@@ -28,6 +28,10 @@
     &:hover {
       background-color: #2196f3;
     }
+
+    &:hover svg {
+      fill: #FFF;
+    }
   }
 
   &__svg {
@@ -35,9 +39,4 @@
     height: 20px;
     fill: #fff;
   }
-
-}
-
-.social-media-footer__icon:hover svg {
-  fill: #FFF;
 }
