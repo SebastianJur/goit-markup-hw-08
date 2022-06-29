@@ -14,8 +14,8 @@
 
     &:hover,
     &:hover svg {
-      fill: #2196f3;
-      border-color: #2196f3;
+      fill: getColor('primary');
+      border-color: getColor('primary');
       cursor: pointer;
     }
   }

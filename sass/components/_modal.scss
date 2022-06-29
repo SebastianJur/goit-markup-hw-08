@@ -3,7 +3,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1.25);
-  background-color: #fff;
+  background-color: getColor('secondary');
   width: 528px;
   height: 581px;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
@@ -15,7 +15,7 @@
     right: 8px;
     width: 30px;
     height: 30px;
-    background-color: #fff;
+    background-color: getColor('secondary');
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 50%;
     cursor: pointer;
@@ -24,8 +24,8 @@
   &__submit-btn {
     width: 200px;
     height: 50px;
-    background: #2196f3;
-    color: #fff;
+    background: getColor('primary');
+    color: getColor('secondary');
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -49,7 +49,7 @@
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: getColor('black');
     margin-top: 40px;
     margin-bottom: 12px;
   }
@@ -61,17 +61,17 @@
     margin-left: 40px;
     margin-bottom: 4px;
     margin-top: 10px;
-    color: #757575;
+    color: getColor('grey');
 
     &:focus-within svg,
     &:hover svg {
-      fill: #2196f3;
+      fill: getColor('primary');
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 
   &__input {
-    color: #757575;
+    color: getColor('grey');
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -84,18 +84,18 @@
     padding-left: 42px;
 
     &:focus-within {
-      border: 1px solid #2196f3;
+      border: 1px solid getColor('primary');
     }
 
     &:hover {
-      border: 1px solid #2196f3;
+      border: 1px solid getColor('primary');
       border-radius: 4px;
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     &:focus-visible {
       outline: none;
-      border: 1px solid #2196f3;
+      border: 1px solid getColor('primary');
     }
   }
 
@@ -129,7 +129,7 @@
     resize: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    color: #757575;
+    color: getColor('grey');
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -143,14 +143,14 @@
     }
 
     &:hover {
-      border: 1px solid #2196f3;
+      border: 1px solid getColor('primary');
       border-radius: 4px;
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     &:focus-visible {
       outline: none;
-      border: 1px solid #2196f3;
+      border: 1px solid getColor('primary');
     }
   }
 }
@@ -175,7 +175,7 @@
     margin-left: 40px;
     margin-bottom: 4px;
     margin-top: 10px;
-    color: #757575;
+    color: getColor('grey');
 
     &::before {
     display: inline-block;
@@ -189,12 +189,12 @@
   }
   
   &__link {
-    color: #2196f3;
+    color: getColor('primary');
   }
 }
 
 .modal-form-policy__checkbox:checked + .modal-form-policy__text::before {
-  background-color: #2196f3;
+  background-color: getColor('primary');
   border: none;
   background-image: url(../images/Vector.svg);
   background-repeat: no-repeat;

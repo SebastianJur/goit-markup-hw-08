@@ -12,7 +12,7 @@
   }
 
   &__text {
-    background-color: #f5f4fa;
+    background-color: getColor('background-secondary');
     border: 0px;
     border-radius: 4px;
     padding: 6px 22px;
@@ -21,8 +21,8 @@
 
     &:active,
     &:hover {
-    color: #ffffff;
-    background-color: #2196f3;
+    color: getColor('secondary');
+    background-color: getColor('primary');
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
     }
@@ -58,7 +58,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #2196f3;
+    background-color: getColor('primary');
     opacity: 90%;
     transform: translatey(100%);
     transition: transform 250ms ease;
@@ -68,7 +68,7 @@
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: getColor('secondary');
     padding-top: 49px;
     padding: 4px 24px 20px 24px;
     }
@@ -78,7 +78,7 @@
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     z-index: 1001;
-    background-color: #fff;
+    background-color: getColor('secondary');
     }
 
   &__name {
@@ -90,7 +90,7 @@
     }
 
   &__type {
-    color: #757575;
+    color: getColor('grey');
     text-align: left;
     font-weight: 400;
     font-size: 16px;

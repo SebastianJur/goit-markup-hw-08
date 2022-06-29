@@ -1,5 +1,5 @@
 .page-footer {
-  background: #2f303a;
+  background: getColor('background-primary');
   height: 252px;
 }
 
@@ -18,7 +18,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  color: #fff;
+  color: getColor('secondary');
   margin-left: 70px;
   margin-bottom: 20px;
   text-transform: uppercase;

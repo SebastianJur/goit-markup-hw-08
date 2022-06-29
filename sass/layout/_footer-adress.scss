@@ -6,7 +6,7 @@
     font-style: normal;
     font-weight: 400px;
     font-size: 14px;
-    color: #ffffff;
+    color: getColor('secondary');
   }
 
   &__link {
@@ -20,7 +20,7 @@
 
     &:active, 
     &:hover {
-      color: #2196f3;
+      color: getColor('primary');
     }
   }
 

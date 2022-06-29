@@ -4,13 +4,13 @@
   justify-content: space-between;
 
   &--bg {
-    background: #f5f4fa;
+    background: getColor('background-secondary');
   }
 }
 
 .team {
   display: inline-block;
-  background: #ffffff;
+  background: getColor('secondary');
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -31,7 +31,7 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #757575;
+    color: getColor('grey');
   }
 
   &__social-list {
@@ -56,11 +56,11 @@
     align-items: center;
 
     &--hover:hover {
-      background-color: #2196f3;
+      background-color: getColor('primary');
     }
 
     &:hover svg {
-      fill: #fff;
+      fill: getColor('secondary');
     }
   }
 

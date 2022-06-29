@@ -1,6 +1,10 @@
 $colors: (
-  'logo-b' : #2196f3,
-  'logo-w' : #ffffff,
+  'primary' : #2196f3,
+  'secondary' : #ffffff,
+  'grey' : #757575,
+  'black' : #212121,
+  'background-primary' : #2f303a,
+  'background-secondary' : #F5F4FA,
 );
 
 @function getColor($key) {

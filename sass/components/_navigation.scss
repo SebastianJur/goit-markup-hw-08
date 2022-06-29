@@ -5,7 +5,7 @@
 
   &__item {
     font-family: "Roboto";
-    color: #212121;
+    color: getColor('black');
     font-weight: 500;
     font-size: 14px;
   }
@@ -17,11 +17,11 @@
   &__link {
     text-decoration: none;
     cursor: pointer;
-    color: #212121;
+    color: getColor('black');
 
     &:active, 
     &:hover {
-      color: #2196f3;
+      color: getColor('primary');
     }
   }
 
@@ -29,7 +29,7 @@
     content: "";
     display: block;
     position: relative;
-    border-top: 4px solid #2196f3;
+    border-top: 4px solid getColor('primary');
     border-radius: 2px;
     top: 29.5px;
   }

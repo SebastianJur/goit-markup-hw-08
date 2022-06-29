@@ -5,7 +5,7 @@
   list-style-type: none;
 
   &__item {
-    fill: #fff;
+    fill: getColor('secondary');
   }
 
   &__icon {
@@ -22,21 +22,21 @@
     &--link {
       text-decoration: none;
       cursor: pointer;
-      color: #757575;
+      color: getColor('grey');
     }
 
     &:hover {
-      background-color: #2196f3;
+      background-color: getColor('primary');
     }
 
     &:hover svg {
-      fill: #FFF;
+      fill: getColor('secondary');
     }
   }
 
   &__svg {
     width: 20px;
     height: 20px;
-    fill: #fff;
+    fill: getColor('secondary');
   }
 }

@@ -9,11 +9,11 @@
     font-size: 14px;
     text-decoration: none;
     cursor: pointer;
-    color: #757575;
+    color: getColor('grey');
 
     &:active, 
     &:hover {
-      color: #2196f3;
+      color: getColor('primary');
     }
   }
 

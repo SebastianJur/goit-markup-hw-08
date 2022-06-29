@@ -1,18 +1,17 @@
-@import '../utils/variables';
-
 .logo {
   display: flex;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
-  color: #212121;
+  color: getColor('black');
 
   &--blue {
-    color: getColor('logo-b');
+    color: getColor('primary');
   }
 
   &--white {
-    color: getColor('logo-w');
+    color: getColor('secondary');
   }
 }
+

@@ -18,7 +18,7 @@
     width: 358px;
     height: 50px;
     background-color: transparent;
-    color:  #757575;
+    color:  getColor('grey');
     padding: 16px;
 
     &--focus:focus {
@@ -34,8 +34,8 @@
   font-size: 16px;
   width: 200px;
   height: 50px;
-  background: #2196f3;
-  color: #fff;
+  background: getColor('primary');
+  color: getColor('secondary');
   line-height: 1.87;
   text-align: center;
   align-items: center;
@@ -50,7 +50,7 @@
   cursor: pointer;
 
   &__icon {
-    fill: #fff;
+    fill: getColor('secondary');
     width: 24px;
     height: 24px;
     position: relative;
