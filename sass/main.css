@@ -768,6 +768,7 @@ button {
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   background-color: #ffffff;
+  z-index: 1001;
 }
 .grid__name {
   text-align: left;

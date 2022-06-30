@@ -78,6 +78,7 @@
     border-bottom: 1px solid getColor('border-primary');
     border-left: 1px solid getColor('border-primary');
     background-color: getColor('secondary');
+    z-index: 1001;
     }
 
   &__name {
