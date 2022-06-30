@@ -12,3 +12,13 @@ $colors: (
 @function getColor($key) {
   @return map-get($colors, $key);
 }
+
+$fonts: (
+  'Raleway' : "Raleway",
+  'Roboto' : "Roboto",
+  'sans-serif' : "sans-serif",
+);
+
+@function getFont($key) {
+  @return map-get($fonts, $key);
+}
