@@ -1,5 +1,64 @@
 .header-primary {
   font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 26px;
+  text-align: center;
+  color: getColor('secondary');
+  line-height: 1,615;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  max-width: 365px;
+}
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+ .header-primary {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 26px;
+  text-align: center;
+  color: getColor('secondary');
+  line-height: 1,615;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  max-width: 365px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+  .header-primary {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 26px;
+  text-align: center;
+  color: getColor('secondary');
+  line-height: 1,615;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  max-width: 365px;
+}
+}
+
+@media screen and (min-width:1200px) {
+  .header-primary {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  color: getColor('secondary');
+  line-height: 1,363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  max-width: 696px;
+}
+}
+
+/*
+.header-primary {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -8,3 +67,4 @@
   max-width: 696px;
   letter-spacing: 0.06em;
 }
+*/
