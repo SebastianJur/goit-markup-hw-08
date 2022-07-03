@@ -838,18 +838,18 @@ button {
   }
   .team__name {
     font-family: "Roboto";
-    font-style: normal;
+    font-style: medium;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1, 187;
     text-align: center;
   }
   .team__job {
     font-family: "Roboto";
-    font-style: normal;
+    font-style: medium;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1, 187;
     text-align: center;
     color: #757575;
   }
@@ -857,12 +857,15 @@ button {
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0px 30px 30px;
   }
   .team__social-item {
     display: flex;
     justify-content: space-around;
+  }
+  .team__social-item:not(:last-child) {
+    margin-right: 10px;
   }
   .team__social-icon {
     display: flex;
