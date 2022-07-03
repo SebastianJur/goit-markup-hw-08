@@ -88,10 +88,6 @@
 /* Tablet */
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
-.container {
-    display: flex;
-    flex-wrap: wrap;
-
 .team {
   display: inline-block;
   background: getColor('secondary');
