@@ -36,5 +36,32 @@
 }
 
 @media screen and (min-width:1200px) {
+.adress {
+  margin-left: auto;
+  align-items: center;
+  line-height: 80px;
 
+  &__link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: getColor('grey');
+
+    &:active, 
+    &:hover {
+      color: getColor('primary');
+    }
+  }
+
+  &__icon {
+    fill: currentcolor;
+    margin-right: 10px;
+  }
+
+  &__link--space-margin {
+    margin-right: 30px; 
+  }
+}
 }

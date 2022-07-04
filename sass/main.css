@@ -214,6 +214,31 @@ button {
   margin-right: 30px;
 }
 
+@media screen and (min-width: 1200px) {
+  .adress {
+    margin-left: auto;
+    align-items: center;
+    line-height: 80px;
+  }
+  .adress__link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #757575;
+  }
+  .adress__link:active, .adress__link:hover {
+    color: #2196f3;
+  }
+  .adress__icon {
+    fill: currentcolor;
+    margin-right: 10px;
+  }
+  .adress__link--space-margin {
+    margin-right: 30px;
+  }
+}
 .header-primary {
   font-family: "Roboto";
   font-weight: 900;
