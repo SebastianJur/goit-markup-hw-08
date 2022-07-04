@@ -75,6 +75,16 @@ button {
   padding-bottom: 94px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .section--hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section--hidden {
+    display: none;
+  }
+}
 .logo {
   display: flex;
   font-family: "Raleway";
@@ -745,7 +755,8 @@ button {
   .icon-lorem__list {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   .icon-lorem__item {
@@ -756,9 +767,60 @@ button {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    flex-basis: calc((100% - 30px) / 2);
   }
   .icon-lorem__item-text {
     width: 450px;
+    height: 120px;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  .icon-lorem__svg {
+    width: 70px;
+    height: 70px;
+  }
+  .icon-lorem__title {
+    font-family: "Roboto";
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .icon-lorem__lorem-ipsum {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .lorem {
+    padding-bottom: 0px;
+  }
+
+  .icon-lorem {
+    display: block;
+  }
+  .icon-lorem__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .icon-lorem__item {
+    height: 120px;
+    width: 270px;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .icon-lorem__item-text {
+    width: 270px;
     height: 120px;
   }
   .icon-lorem__svg {
@@ -767,7 +829,7 @@ button {
   }
   .icon-lorem__title {
     font-family: "Roboto";
-    text-align: center;
+    text-align: left;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -877,18 +939,6 @@ button {
   top: 75%;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .working {
-    display: none;
-    visibility: hidden;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .working {
-    display: none;
-    visibility: hidden;
-  }
-}
 @media screen and (min-width: 1200px) {
   .working {
     text-align: center;
