@@ -126,6 +126,70 @@ button {
   top: 29.5px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  .nav__item {
+    font-family: "Roboto";
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .nav__item--space-margin {
+    margin-right: 46px;
+  }
+  .nav__link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #212121;
+  }
+  .nav__link:active, .nav__link:hover {
+    color: #2196f3;
+  }
+  .nav__link--active::after {
+    content: "";
+    display: block;
+    position: relative;
+    border-top: 4px solid #2196f3;
+    border-radius: 2px;
+    top: 29.5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  .nav__item {
+    font-family: "Roboto";
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .nav__item--space-margin {
+    margin-right: 46px;
+  }
+  .nav__link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #212121;
+  }
+  .nav__link:active, .nav__link:hover {
+    color: #2196f3;
+  }
+  .nav__link--active::after {
+    content: "";
+    display: block;
+    position: relative;
+    border-top: 4px solid #2196f3;
+    border-radius: 2px;
+    top: 29.5px;
+  }
+}
 .adress {
   margin-left: auto;
   align-items: center;
@@ -788,11 +852,56 @@ button {
   top: 75%;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .working {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .working {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .working {
+    text-align: center;
+    display: block;
+    visibility: visible;
+  }
+  .working__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .working__item {
+    position: relative;
+  }
+  .working__overlay {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    top: 75%;
+  }
+}
 .our-team {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .our-team--bg {
   background: #F5F4FA;
@@ -873,8 +982,7 @@ button {
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-  }
-  .team:not(:last-child) {
+    flex-basis: calc((100% - 30px) / 2);
     margin-bottom: 30px;
   }
   .team__img {
@@ -902,7 +1010,7 @@ button {
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0px 30px 30px;
   }
   .team__social-item {
