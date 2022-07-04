@@ -1417,6 +1417,7 @@ button {
   margin-left: 12px;
   margin-top: 0px;
   cursor: pointer;
+  margin-bottom: 60px;
 }
 .newsletter-btn__icon {
   fill: #ffffff;
@@ -1475,6 +1476,7 @@ button {
     margin-left: 12px;
     margin-top: 0px;
     cursor: pointer;
+    margin-bottom: 60px;
   }
   .newsletter-btn__icon {
     fill: #ffffff;
