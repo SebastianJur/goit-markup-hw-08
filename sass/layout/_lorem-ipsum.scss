@@ -1,4 +1,4 @@
-.lorem {
+/* .lorem {
   padding-bottom: 0px;
 }
 
@@ -52,6 +52,8 @@
     color: getColor('grey');
   }
 }
+*/
+
 
 @media screen and (min-width:480px) and (max-width: 767px) {
 .lorem {
@@ -66,27 +68,30 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
   }
 
   &__item {
+
+  }
+
+  &__bg-svg {
     height: 120px;
-    width: 450px;
-    background-color: getColor('background-secondary');
+    width: 100%;
+    background-color: #f5f4fa;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
   }
 
-  &__item-text {
-    width: 450px;
-    height: 120px;
+  &__svg {
+    height: 70px;
+    width: 70px;
   }
 
-  &__svg {
-    width: 70px;
-    height: 70px;
+  &__item-text {
+    width: 100%;
+    height: 120px;
   }
 
   &__title {
@@ -110,6 +115,7 @@
 }
 }
 
+
 @media screen and (min-width:768px) and (max-width: 1199px) {
 .lorem {
   padding-bottom: 0px;
@@ -122,30 +128,32 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: space-between;   
   }
 
   &__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+
+  &__bg-svg {
     height: 120px;
-    width: 450px;
-    background-color: getColor('background-secondary');
+    width: 100%;
+    background-color: #f5f4fa;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    flex-basis: calc((100% - 30px) / 2);
-  }
-
-  &__item-text {
-    width: 450px;
-    height: 120px;
-    flex-basis: calc((100% - 30px) / 2);
   }
 
   &__svg {
-    width: 70px;
     height: 70px;
+    width: 70px;
+  }
+
+  &__item-text {
+    width: 100%;
+    height: 120px;
   }
 
   &__title {
@@ -182,27 +190,30 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
   }
 
   &__item {
+
+  }
+
+  &__bg-svg {
     height: 120px;
     width: 270px;
-    background-color: getColor('background-secondary');
+    background-color: #f5f4fa;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
   }
 
+  &__svg {
+    height: 70px;
+    width: 70px;
+  }
+
   &__item-text {
     width: 270px;
     height: 120px;
-  }
-
-  &__svg {
-    width: 70px;
-    height: 70px;
   }
 
   &__title {
