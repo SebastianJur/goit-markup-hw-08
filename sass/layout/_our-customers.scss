@@ -1,16 +1,21 @@
 .our-customers {
   list-style-type: none;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  
 
   &__item {
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: 1px solid getColor('icon-grey');
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: calc((100% - 30px) / 2);
+    margin-bottom: 30px;
 
     &:hover,
     &:hover svg {
@@ -25,4 +30,34 @@
     height: 60.04px;
     fill: getColor('icon-grey');
   }
+}
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+.our-customers {
+  
+  &__item {
+    width: 210px;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+.our-customers {
+
+  &__item {
+    width: 226px;
+    flex-basis: calc((100% - 30px) / 3);
+  }
+}
+}
+
+@media screen and (min-width:1200px) {
+.our-customers {
+
+  &__item {
+    width: 170px;
+    flex-basis: auto;
+  }
+}
 }

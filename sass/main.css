@@ -1001,16 +1001,20 @@ button {
 .our-customers {
   list-style-type: none;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .our-customers__item {
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-basis: calc((100% - 30px) / 2);
+  margin-bottom: 30px;
 }
 .our-customers__item:hover, .our-customers__item:hover svg {
   fill: #2196f3;
@@ -1023,6 +1027,24 @@ button {
   fill: #AFB1B8;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .our-customers__item {
+    width: 210px;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .our-customers__item {
+    width: 226px;
+    flex-basis: calc((100% - 30px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our-customers__item {
+    width: 170px;
+    flex-basis: auto;
+  }
+}
 .page-footer {
   background: #2f303a;
   height: 252px;
