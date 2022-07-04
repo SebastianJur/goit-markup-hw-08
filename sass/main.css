@@ -716,6 +716,9 @@ button {
     flex-direction: column;
     justify-content: space-between;
   }
+  .icon-lorem__item {
+    flex-basis: auto;
+  }
   .icon-lorem__bg-svg {
     height: 120px;
     width: 100%;
@@ -817,6 +820,9 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .icon-lorem__item {
+    flex-basis: auto;
   }
   .icon-lorem__bg-svg {
     height: 120px;
