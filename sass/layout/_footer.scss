@@ -52,18 +52,17 @@
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
 .page-footer {
-  background: getColor('background-primary');
   height: 100%;
 }
 
 .page-footer .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .footer-container {
-  padding-top: 60px;
+  text-align: center;
 }
 
 .footer-title {
@@ -73,6 +72,7 @@
   font-weight: 700;
   font-size: 14px;
   color: getColor('secondary');
+  text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
