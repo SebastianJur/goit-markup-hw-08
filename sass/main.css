@@ -718,6 +718,7 @@ button {
   }
   .icon-lorem__item {
     flex-basis: auto;
+    margin-bottom: 30px;
   }
   .icon-lorem__bg-svg {
     height: 120px;
@@ -734,7 +735,6 @@ button {
   }
   .icon-lorem__item-text {
     width: 100%;
-    height: 120px;
   }
   .icon-lorem__title {
     font-family: "Roboto";
@@ -771,6 +771,7 @@ button {
   }
   .icon-lorem__item {
     flex-basis: calc((100% - 30px) / 2);
+    margin-bottom: 30px;
   }
   .icon-lorem__bg-svg {
     height: 120px;
@@ -787,7 +788,6 @@ button {
   }
   .icon-lorem__item-text {
     width: 100%;
-    height: 120px;
   }
   .icon-lorem__title {
     font-family: "Roboto";
