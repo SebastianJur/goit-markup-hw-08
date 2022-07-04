@@ -3,6 +3,9 @@
   padding: 0 15px;
   align-items: center;
   
+  .button-filtr & {
+    align-items: center;
+  }
 }
 
 
@@ -10,11 +13,7 @@
   .container {
     max-width: 480px;
     padding: 0 15px;
-    margin: auto;
-
-      .button-filtr & {
-        align-items: center;
-      }
+    margin: auto;  
   }
 }
 
@@ -23,10 +22,6 @@
     max-width: 768px;
     padding: 0 15px;
     margin: auto;
-
-    .button-filtr & {
-        align-items: center;
-      }
   }
 }
 
@@ -34,10 +29,6 @@
   .container {
     max-width: 1200px;
     margin: auto;
-
-    .button-filtr & {
-        align-items: center;
-      }
   }
 }
 

@@ -2,9 +2,27 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 50px;
   color: getColor('black');
+}
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+.header-second {
+  font-size: 28px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+.header-second {
+  font-size: 28px;
+}
+}
+
+@media screen and (min-width:1200px) {
+ .header-second {
+  font-size: 36px;
+}
 }

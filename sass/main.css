@@ -21,15 +21,15 @@ button {
   padding: 0 15px;
   align-items: center;
 }
+.button-filtr .container {
+  align-items: center;
+}
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     max-width: 480px;
     padding: 0 15px;
     margin: auto;
-  }
-  .button-filtr .container {
-    align-items: center;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -38,17 +38,11 @@ button {
     padding: 0 15px;
     margin: auto;
   }
-  .button-filtr .container {
-    align-items: center;
-  }
 }
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
     margin: auto;
-  }
-  .button-filtr .container {
-    align-items: center;
   }
 }
 /*
@@ -170,69 +164,51 @@ button {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .header-primary {
-    font-family: "Roboto";
-    font-weight: 900;
     font-size: 26px;
-    text-align: center;
-    color: #ffffff;
     line-height: 1, 615;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 30px;
     max-width: 365px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-primary {
-    font-family: "Roboto";
-    font-weight: 900;
     font-size: 26px;
-    text-align: center;
-    color: #ffffff;
     line-height: 1, 615;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 30px;
     max-width: 365px;
   }
 }
 @media screen and (min-width: 1200px) {
   .header-primary {
-    font-family: "Roboto";
-    font-weight: 900;
     font-size: 44px;
-    text-align: center;
-    color: #ffffff;
     line-height: 1, 363;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 30px;
     max-width: 696px;
   }
 }
-/*
-.header-primary {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  text-align: center;
-  color: getColor('secondary');
-  max-width: 696px;
-  letter-spacing: 0.06em;
-}
-*/
 .header-second {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 50px;
   color: #212121;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .header-second {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-second {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-second {
+    font-size: 36px;
+  }
+}
 .backdrop {
   position: fixed;
   left: 0;
@@ -828,6 +804,8 @@ button {
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-image: url("../images/our-team/person1-mobile.jpg");
+    background-repeat: no-repeat;
   }
   .team:not(:last-child) {
     margin-bottom: 30px;
