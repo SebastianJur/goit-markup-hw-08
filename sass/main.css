@@ -331,8 +331,8 @@ button {
   top: 50%;
   transform: translate(-50%, -50%) scale(1.25);
   background-color: #ffffff;
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
@@ -369,14 +369,16 @@ button {
   flex-direction: column;
 }
 .modal-form__title {
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 40px;
-  margin-bottom: 12px;
+  margin: 40px 40px 12px;
+  width: 370px;
 }
 .modal-form__label {
   font-size: 12px;
@@ -400,7 +402,7 @@ button {
   display: block;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  width: 448px;
+  width: 370px;
   height: 40px;
   padding-left: 42px;
 }
@@ -423,21 +425,21 @@ button {
 .modal-form__icon-form--avatar {
   height: 12px;
   width: 12px;
-  top: 113px;
+  top: 137px;
 }
 .modal-form__icon-form--phone {
   height: 13px;
   width: 13px;
-  top: 181px;
+  top: 205px;
 }
 .modal-form__icon-form--envelope {
   width: 15px;
   height: 12px;
-  top: 249px;
+  top: 272px;
 }
 .modal-form__textarea {
   height: 120px;
-  width: 448px;
+  width: 370px;
   padding: 12px 16px;
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -506,40 +508,6 @@ button {
   background-position: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .modal {
-    width: 450px;
-    height: 609px;
-  }
-
-  .modal-form__title {
-    display: flex;
-    margin: 40px 40px 12px;
-    width: 370px;
-    justify-content: center;
-  }
-  .modal-form__input {
-    width: 370px;
-  }
-  .modal-form__textarea {
-    width: 370px;
-  }
-  .modal-form__icon-form--avatar {
-    height: 12px;
-    width: 12px;
-    top: 137px;
-  }
-  .modal-form__icon-form--phone {
-    height: 13px;
-    width: 13px;
-    top: 205px;
-  }
-  .modal-form__icon-form--envelope {
-    width: 15px;
-    height: 12px;
-    top: 272px;
-  }
-}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .modal {
     width: 450px;
@@ -578,6 +546,33 @@ button {
   .modal {
     width: 528px;
     height: 581px;
+  }
+
+  .modal-form__title {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .modal-form__input {
+    width: 448px;
+  }
+  .modal-form__textarea {
+    width: 448px;
+  }
+  .modal-form__icon-form--avatar {
+    height: 12px;
+    width: 12px;
+    top: 113px;
+  }
+  .modal-form__icon-form--phone {
+    height: 13px;
+    width: 13px;
+    top: 181px;
+  }
+  .modal-form__icon-form--envelope {
+    width: 15px;
+    height: 12px;
+    top: 249px;
   }
 }
 .page-header .container {
