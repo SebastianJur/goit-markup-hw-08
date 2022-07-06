@@ -10,26 +10,16 @@
   }
 }
 
-/* Mobile */
-
-@media screen and (min-width:480px) and (max-width: 767px) {
 .team {
   display: inline-block;
   background: getColor('secondary');
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-image: url('../images/our-team/person1-mobile.jpg');
-  background-repeat: no-repeat;
-  
-  &:not(:last-child) {
+
+ &:not(:last-child) {
         margin-bottom: 30px;
     }
-
-  &__img {
-    width: 450px;
-    height: 460px;
-  }
 
   &__name {
     font-family: 'Roboto';
@@ -59,7 +49,6 @@
   }
 
   &__social-item {
-    display: flex;
     justify-content: space-around;
 
     &:not(:last-child) {
@@ -89,6 +78,17 @@
     height: 20px;
     fill: getColor('icon-grey');
   }
+
+}
+
+/* Mobile */
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+.team {
+  &__img {
+    width: 450px;
+    height: 460px;
+  }
 }
 }
 
@@ -96,11 +96,6 @@
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
 .team {
-  display: inline-block;
-  background: getColor('secondary');
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 30px) / 2);
   margin-bottom: 30px;
   
@@ -108,143 +103,30 @@
     width: 354px;
     height: 374px;
   }
-
-  &__name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-  }
-
-  &__job {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: getColor('grey');
-  }
-
-  &__social-list {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 30px 30px;
-  }
-
-  &__social-item {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  &__social-icon {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-
-    &--hover:hover {
-      background-color: getColor('primary');
-    }
-
-    &:hover svg {
-      fill: getColor('secondary');
-    }
-  }
-
-  &__social-svg {
-    width: 20px;
-    height: 20px;
-    fill: getColor('icon-grey');
-  }
 }
 }
 
 /* Desktop */
 
 @media screen and (min-width:1200px) {
-  .our-team {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-
-  &--bg {
-    background: getColor('background-secondary');
-  }
-}
-
 .team {
-  display: inline-block;
-  background: getColor('secondary');
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+
+  &:not(:last-child) {
+    margin-bottom: auto;
+  }
 
   &__img {
     width: "270";
     height: "260";
   }
 
-  &__name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-  }
-
-  &__job {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: getColor('grey');
-  }
-
   &__social-list {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 0px 30px 30px;
   }
 
   &__social-item {
     display: flex;
     justify-content: space-around;
-  }
-
-  &__social-icon {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-
-    &--hover:hover {
-      background-color: getColor('primary');
-    }
-
-    &:hover svg {
-      fill: getColor('secondary');
-    }
-  }
-
-  &__social-svg {
-    width: 20px;
-    height: 20px;
-    fill: getColor('icon-grey');
   }
 }
 }

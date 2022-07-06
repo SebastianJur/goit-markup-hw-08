@@ -61,192 +61,21 @@
 }
 
 @media screen and (min-width:480px) and (max-width: 767px) {
-.newsletter-footer {
-  display: flex;
-  align-items: center;
-  
-}
 
-.newsletter {
-  display: block;
-
-  &__email {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    width: 450px;
-    height: 50px;
-    background-color: transparent;
-    color:  getColor('grey');
-    padding: 16px;
-
-    &--focus:focus {
-      border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-  }
-}
-
-.newsletter-btn {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  width: 200px;
-  height: 50px;
-  background: getColor('primary');
-  color: getColor('secondary');
-  line-height: 1.87;
-  text-align: center;
-  align-items: center;
-  letter-spacing: 0.06em;
-  margin: auto;
-  margin-top: 30px;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  margin-left: 12px;
-  margin-top: 0px;
-  cursor: pointer;
-  margin-bottom: 60px;
-
-  &__icon {
-    fill: getColor('secondary');
-    width: 24px;
-    height: 24px;
-    position: relative;
-    left: 15px;
-    top: 5px;
-  }
-}
 }
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
-.newsletter-footer {
-  display: flex;
-  align-items: center;
-}
 
-.newsletter {
-  display: block;
-
-  &__email {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    width: 450px;
-    height: 50px;
-    background-color: transparent;
-    color:  getColor('grey');
-    padding: 16px;
-    margin-bottom: 20px;
-
-    &--focus:focus {
-      border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-  }
-}
-
-.newsletter-btn {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  width: 200px;
-  height: 50px;
-  background: getColor('primary');
-  color: getColor('secondary');
-  line-height: 1.87;
-  text-align: center;
-  align-items: center;
-  letter-spacing: 0.06em;
-  margin: auto;
-  margin-top: 30px;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  margin-left: 12px;
-  margin-top: 0px;
-  cursor: pointer;
-  margin-bottom: 60px;
-
-  &__icon {
-    fill: getColor('secondary');
-    width: 24px;
-    height: 24px;
-    position: relative;
-    left: 15px;
-    top: 5px;
-  }
-}
 }
 
 @media screen and (min-width:1200px) {
 .newsletter-footer {
-  display: flex;
-  align-items: center;
   margin-left: 70px;
 }
 
 .newsletter {
-  display: block;
-
   &__email {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
     width: 358px;
-    height: 50px;
-    background-color: transparent;
-    color:  getColor('grey');
-    padding: 16px;
-
-    &--focus:focus {
-      border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-  }
-}
-
-.newsletter-btn {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  width: 200px;
-  height: 50px;
-  background: getColor('primary');
-  color: getColor('secondary');
-  line-height: 1.87;
-  text-align: center;
-  align-items: center;
-  letter-spacing: 0.06em;
-  margin: auto;
-  margin-top: 30px;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-  margin-left: 12px;
-  margin-top: 0px;
-  cursor: pointer;
-
-  &__icon {
-    fill: getColor('secondary');
-    width: 24px;
-    height: 24px;
-    position: relative;
-    left: 15px;
-    top: 5px;
   }
 }
 }

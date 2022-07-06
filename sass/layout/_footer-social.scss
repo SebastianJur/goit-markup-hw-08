@@ -45,90 +45,11 @@
 }
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
-.social-media-footer {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
 
-  &__item {
-    fill: getColor('secondary');
-  }
-
-  &__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    width: 44px;
-    height: 44px;
-    margin-left: 10px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-
-    &--link {
-      text-decoration: none;
-      cursor: pointer;
-      color: getColor('grey');
-    }
-
-    &:hover {
-      background-color: getColor('primary');
-    }
-
-    &:hover svg {
-      fill: getColor('secondary');
-    }
-  }
-
-  &__svg {
-    width: 20px;
-    height: 20px;
-    fill: getColor('secondary');
-  }
-}
 }
 
 @media screen and (min-width:1200px) {
 .social-media-footer {
-  display: flex;
-  align-items: center;
   margin-left: 55px;
-  list-style-type: none;
-
-  &__item {
-    fill: getColor('secondary');
-  }
-
-  &__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    width: 44px;
-    height: 44px;
-    margin-left: 10px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-
-    &--link {
-      text-decoration: none;
-      cursor: pointer;
-      color: getColor('grey');
-    }
-
-    &:hover {
-      background-color: getColor('primary');
-    }
-
-    &:hover svg {
-      fill: getColor('secondary');
-    }
-  }
-
-  &__svg {
-    width: 20px;
-    height: 20px;
-    fill: getColor('secondary');
-  }
 }
 }
