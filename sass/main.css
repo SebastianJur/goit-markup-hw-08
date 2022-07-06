@@ -860,6 +860,7 @@ button {
   }
 }
 .working {
+  display: none;
   text-align: center;
 }
 .working__list {
@@ -890,34 +891,7 @@ button {
 
 @media screen and (min-width: 1200px) {
   .working {
-    text-align: center;
-    display: block;
-    visibility: visible;
-  }
-  .working__list {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-  }
-  .working__item {
-    position: relative;
-  }
-  .working__overlay {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    width: 370px;
-    height: 70px;
-    background: rgba(47, 48, 58, 0.8);
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: #ffffff;
-    top: 75%;
+    display: inline;
   }
 }
 .our-team {
