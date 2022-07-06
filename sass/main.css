@@ -514,10 +514,6 @@ button {
   margin-right: 93px;
 }
 
-.page-footer__logo {
-  margin-bottom: 20px;
-}
-
 .navigation {
   display: flex;
 }
@@ -896,6 +892,11 @@ button {
   padding-top: 60px;
 }
 
+.page-footer__logo {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
 .footer-title {
   display: block;
   font-family: "Roboto";
@@ -926,6 +927,10 @@ button {
 
   .footer-container {
     text-align: left;
+  }
+
+  .page-footer__logo {
+    justify-content: normal;
   }
 
   .footer-title {
