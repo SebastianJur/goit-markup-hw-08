@@ -111,6 +111,11 @@ button {
     justify-content: space-between;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .page-header {
+    display: flex;
+  }
+}
 .nav {
   display: flex;
   align-items: center;
@@ -193,7 +198,7 @@ button {
     position: relative;
     border-top: 4px solid #2196f3;
     border-radius: 2px;
-    top: 29.5px;
+    top: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -254,11 +259,26 @@ button {
 }
 .adress__link--space-margin {
   margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .adress {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .adress {
+    margin-left: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: normal;
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+  }
+  .adress__link--space-margin {
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -730,7 +750,7 @@ button {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .page-header__logo {
-    margin-right: 93px;
+    margin-right: 83px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1308,7 +1328,7 @@ button {
 }
 .button-filtr__item:not(:last-child) {
   margin-bottom: 15px;
-  margin-right: 8px;
+  margin-right: 15px;
 }
 .button-filtr__text {
   background-color: #F5F4FA;
@@ -1398,6 +1418,9 @@ button {
   .button-filtr {
     justify-content: center;
   }
+  .button-filtr__item:not(:last-child) {
+    margin-right: 8px;
+  }
 
   .grid {
     justify-content: space-between;
@@ -1409,6 +1432,9 @@ button {
 @media screen and (min-width: 1200px) {
   .button-filtr {
     justify-content: center;
+  }
+  .button-filtr__item:not(:last-child) {
+    margin-right: 8px;
   }
 
   .grid {
