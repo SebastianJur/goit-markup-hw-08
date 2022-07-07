@@ -28,7 +28,9 @@
 }
 
 @media screen and (min-width:480px) and (max-width: 767px) {
-
+.adress {
+  display: none;
+}
 }
 
 @media screen and (min-width:768px) and (max-width: 1199px) {
@@ -36,7 +38,7 @@
 }
 
 @media screen and (min-width:1200px) {
-.adress {
+  .adress {
   margin-left: auto;
   align-items: center;
   line-height: 80px;

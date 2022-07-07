@@ -1,0 +1,119 @@
+.hamburger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: getColor('secondary');
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: column;
+    z-index: 1002;
+}
+
+.hamburger-list-container {
+    padding-left: 40px;
+}
+
+// JS & toggle buttons
+
+.js-menu-container.is-open {
+    transform: translateX(0);
+}
+
+.mobile-navigation__button, .hamburger__close-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.hamburger__close-btn {
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 21px;
+    margin-bottom: 8px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+// Menu links
+
+
+.hamburger-list-container__link {
+    text-decoration: none;
+    color: getColor('black');
+
+}.hamburger-list-container__link--active {
+    color: getColor('primary');
+}
+
+.hamburger-list-container__link--phone {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: getColor('primary');
+}
+
+.hamburger-list-container__link--mail {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    color: getColor('grey');
+}
+
+.hamburger-list-container__link:active {
+    color: getColor('primary');
+}
+
+.hamburger-list-container__list {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.hamburger-list-container__item {
+    margin-bottom: 36px;
+
+}
+
+.hamburger-list-container__item--first {
+    margin-top: 202px;
+    margin-bottom: 32px;
+}
+
+.hamburger-list-container__item--second {
+    margin-bottom: 64px;
+}
+
+// Social links
+
+.hamburger-social {
+    color: getColor('primary');
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    padding-left: 40px; 
+}
+
+.hamburger-social__item::after {
+    content: "";
+    width: 22px;
+    height: 0px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+    margin: 0 10px;
+}
+

@@ -11,7 +11,7 @@
   </head>
   <body>
     <!-- HEADER -->
-    <!--<header class="page-header">
+    <header class="page-header">
       <section class="container">
         
         <a class="logo page-header__logo" href="index.html"><span class="logo--blue">Web</span>Studio</a>
@@ -32,9 +32,16 @@
             <svg class="adress__icon" width="10" height="16">
             <use href="./images/icons.svg#icon-phone"></use></svg>+48 111 111 111</a>
         </div>
+
+        <div class="mobile-navigation">
+          <button class="mobile-navigation__button js-open-menu">
+          <svg class="mobile-navigation__icon">
+            <use href="./images/icons.svg#icon-menu-mobile"></use>
+          </svg></button>
+        </div>
         
       </section>
-    </header> -->
+    </header>
     <!-- MAIN -->
     <main>
         <section class="section bg-image">
@@ -513,7 +520,33 @@
 
       </form>
     </div>
-  </div>
+    </div>
+
+    <div class="hamburger js-menu-container">
+      
+      <button class="hamburger__close-btn js-close-menu">
+      <svg class="hamburger__x"><use href="./images/icons.svg#icon-menu-mobile-close"></use></svg></button>
+      <div class="hamburger-list-container">
+      <ul class="hamburger-list-container__list">
+        <li class="hamburger-list-container__item">
+          <a href="index.html" class="hamburger-list-container__link hamburger-list-container__link--active">Agencja</a></li>
+        <li class="hamburger-list-container__item"><a href="portfolio.html" class="hamburger-list-container__link">Portfolio</a></li>
+        <li class="hamburger-list-container__item"><a href="#"  class="hamburger-list-container__link">Kontakt</a></li>
+      </ul>
+      <ul class="hamburger-list-container__list">
+        <li class="hamburger-list-container__item--first"><a href="tel:+48111111111" class="hamburger-list-container__link hamburger-list-container__link--phone">+48 111 111 111</a></li>
+        <li class="hamburger-list-container__item--second"><a href="mailto:info@devstudio.com" class="hamburger-list-container__link hamburger-list-container__link--mail">info@devstudio.com</a></li>
+      </ul>
+      </div>
+      <ul class="hamburger-social">
+        <li class="hamburger-social__item">Instagram</li>
+        <li class="hamburger-social__item">Twitter</li>
+        <li class="hamburger-social__item">Facebook</li>
+        <li>LinkedIn</li>
+      </ul>
+    </div>
+
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
