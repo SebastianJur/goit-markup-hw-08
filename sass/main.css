@@ -143,14 +143,13 @@ button {
 }
 
 .mobile-navigation {
-  padding-right: 23px;
   margin-left: auto;
 }
 
 .mobile-navigation__icon {
-  width: 25px;
-  height: 25px;
-  fill: #000;
+  width: 35px;
+  height: 35px;
+  fill: #212121;
 }
 .mobile-navigation__icon:hover {
   fill: #2196f3;
@@ -722,13 +721,23 @@ button {
 }
 
 .page-header__logo {
-  margin-right: 93px;
+  margin-right: 270px;
 }
 
 .navigation {
   display: flex;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .page-header__logo {
+    margin-right: 93px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-header__logo {
+    margin-right: 93px;
+  }
+}
 .bg-image {
   background: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header/header-bg-mobile.jpg");
