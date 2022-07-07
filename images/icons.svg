@@ -194,9 +194,9 @@
         </symbol>
 
         <symbol id="icon-menu-mobile" viewBox="0 0 24 24">
-            <path d="M6 7H18V9H6V7Z" fill="black"/>
-            <path d="M6 11H18V13H6V11Z" fill="black"/>
-            <path d="M18 15H6V17H18V15Z" fill="black"/>
+            <path d="M6 7H18V9H6V7Z"/>
+            <path d="M6 11H18V13H6V11Z"/>
+            <path d="M18 15H6V17H18V15Z"/>
         </symbol>
 
         <symbol id="icon-menu-mobile-close" viewBox="0 0 19 19">
