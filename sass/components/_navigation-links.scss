@@ -1,4 +1,5 @@
 .adress {
+  display: none;
   margin-left: auto;
   align-items: center;
   line-height: 80px;
@@ -52,6 +53,7 @@
 
 @media screen and (min-width:1200px) {
   .adress {
+    display: inline;
   margin-left: auto;
   align-items: center;
   line-height: 80px;

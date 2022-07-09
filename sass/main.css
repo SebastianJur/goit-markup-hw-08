@@ -115,7 +115,7 @@ button {
   }
 }
 .nav {
-  display: flex;
+  display: none;
   align-items: center;
   list-style-type: none;
 }
@@ -236,6 +236,7 @@ button {
   }
 }
 .adress {
+  display: none;
   margin-left: auto;
   align-items: center;
   line-height: 80px;
@@ -281,6 +282,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .adress {
+    display: inline;
     margin-left: auto;
     align-items: center;
     line-height: 80px;
