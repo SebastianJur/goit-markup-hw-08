@@ -1050,8 +1050,7 @@ button {
     margin-bottom: 30px;
   }
   .team__img {
-    width: 354px;
-    height: 374px;
+    min-width: 100%;
   }
 }
 /* Desktop */
