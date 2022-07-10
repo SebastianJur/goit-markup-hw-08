@@ -101,19 +101,10 @@ button {
 .page-header {
   border-bottom: 1px solid #ececec;
   height: 80px;
+  justify-content: space-between;
+  display: flex;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .page-header {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .page-header {
-    display: flex;
-  }
-}
 .nav {
   display: none;
   align-items: center;
