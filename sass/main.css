@@ -158,7 +158,6 @@ button {
   .mobile-navigation {
     display: none;
   }
-
   .nav {
     display: flex;
     align-items: center;
@@ -194,7 +193,6 @@ button {
   .mobile-navigation {
     display: none;
   }
-
   .nav {
     display: flex;
     align-items: center;
@@ -561,7 +559,6 @@ button {
     width: 450px;
     height: 609px;
   }
-
   .modal-form__title {
     display: flex;
     margin: 40px 40px 12px;
@@ -595,7 +592,6 @@ button {
     width: 528px;
     height: 581px;
   }
-
   .modal-form__title {
     display: flex;
     flex-direction: column;
@@ -644,6 +640,8 @@ button {
 
 .hamburger-container {
   padding-left: 40px;
+  display: flex;
+  flex-direction: column;
 }
 .hamburger-container__link {
   text-decoration: none;
@@ -672,15 +670,12 @@ button {
 .hamburger-container__list {
   list-style-type: none;
 }
+.hamburger-container__list--margin-top {
+  margin-bottom: 36px;
+  margin-top: auto;
+}
 .hamburger-container__item {
   margin-bottom: 36px;
-}
-.hamburger-container__item--first {
-  margin-top: 202px;
-  margin-bottom: 32px;
-}
-.hamburger-container__item--second {
-  margin-bottom: 64px;
 }
 
 .hamburger__close-btn {
@@ -713,6 +708,7 @@ button {
   line-height: 1.22;
   letter-spacing: 0.02em;
   padding-left: 40px;
+  flex-wrap: wrap;
 }
 .hamburger-social__item::after {
   content: "";
@@ -1035,7 +1031,6 @@ button {
   .our-team {
     justify-content: space-between;
   }
-
   .team {
     flex-basis: calc((100% - 30px) / 2);
     margin-bottom: 30px;
@@ -1049,7 +1044,6 @@ button {
   .our-team {
     justify-content: space-between;
   }
-
   .team:not(:last-child) {
     margin-bottom: auto;
   }
@@ -1155,20 +1149,16 @@ button {
   .page-footer {
     height: 252px;
   }
-
   .page-footer .container {
     align-items: start;
     flex-direction: row;
   }
-
   .footer-container {
     text-align: left;
   }
-
   .page-footer__logo {
     justify-content: normal;
   }
-
   .footer-title {
     margin-left: 70px;
   }
@@ -1308,7 +1298,6 @@ button {
   .newsletter-footer {
     margin-left: 70px;
   }
-
   .newsletter__email {
     width: 358px;
   }
@@ -1417,7 +1406,6 @@ button {
   .button-filtr__item:not(:last-child) {
     margin-right: 8px;
   }
-
   .grid {
     justify-content: space-between;
   }
@@ -1432,7 +1420,6 @@ button {
   .button-filtr__item:not(:last-child) {
     margin-right: 8px;
   }
-
   .grid {
     justify-content: space-between;
   }

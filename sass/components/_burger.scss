@@ -19,6 +19,8 @@
 
 .hamburger-container {
     padding-left: 40px;
+    display: flex;
+    flex-direction: column;
 
     &__link {
         text-decoration: none;
@@ -51,19 +53,15 @@
 
     &__list {
         list-style-type: none;
+
+        &--margin-top {
+            margin-bottom: 36px;
+            margin-top: auto;
+        }
     }
 
     &__item {
         margin-bottom: 36px;
-
-        &--first {
-            margin-top: 202px;
-            margin-bottom: 32px;
-        }
-
-        &--second {
-            margin-bottom: 64px;
-        }
     }
 }
 
@@ -97,7 +95,8 @@
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
-    padding-left: 40px; 
+    padding-left: 40px;
+    flex-wrap: wrap;
 
     &__item::after {
     content: "";
