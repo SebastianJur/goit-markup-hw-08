@@ -720,6 +720,7 @@ button {
   letter-spacing: 0.02em;
   padding-left: 40px;
   flex-wrap: wrap;
+  margin-bottom: 48px;
 }
 .hamburger-social__item::after {
   content: "";

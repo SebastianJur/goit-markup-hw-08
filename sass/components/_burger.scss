@@ -97,6 +97,7 @@
     letter-spacing: 0.02em;
     padding-left: 40px;
     flex-wrap: wrap;
+    margin-bottom: 48px;
 
     &__item::after {
     content: "";
@@ -111,3 +112,4 @@
 .js-menu-container.is-open {
     transform: translateX(0);
 }
+
