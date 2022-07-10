@@ -738,10 +738,8 @@ button {
 
 .page-header .container {
   display: flex;
-}
-
-.page-header__logo {
-  margin-right: 270px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .navigation {
